@@ -6,18 +6,15 @@ import Welcome from './components/Welcome'
 import Message from './components/Message'
 import Counter from './components/Counter'
 import Hello from './components/Hello'
+import FunctionClick from './components/FunctionClick'
+import ClassClick from './components/ClassClick'
+import EventBind from './components/EventBind'
+
 class App extends Component {
   render() {
     return (
       <div className="App">
-      {<Greet name="Bruce" heroName="Batman"/>
-      // <Greet name="Clark" heroName="Superman"/>
-      // <Greet name="Diana" heroName="Wonder Woman"/>
-      }
-      <Welcome name="Clark" heroName="Superman"/>
-      {//<Message />
-      }
-      <Counter />
+      <EventBind />
       </div>
     );
   }
